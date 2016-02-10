@@ -1,0 +1,9 @@
+package main
+
+import ("fmt"
+		"liftDriver")
+
+func main() {
+	success = liftDriver_Initialize()
+	fmt.Println(success)
+}
